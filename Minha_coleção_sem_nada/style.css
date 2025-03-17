@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fc;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid #dde1e6;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.back-button:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1f36;
+    margin: 0;
+}
+
+/* Estilos para o card */
+.card {
+    background-color: white;
+    width: 50%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo para o ícone de lupa */
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a1f36;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #5a5a5a;
+}

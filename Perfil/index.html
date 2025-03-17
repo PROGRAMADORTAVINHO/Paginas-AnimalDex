@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="#" class="back-button">← Voltar</a>
+        <div class="title_reader">Perfil</div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1>Informações Pessoais</h1>
+
+            <div class="avatar">
+                <span>U</span>
+            </div>
+
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Seu email" required>
+                
+                <button type="submit" class="save-btn">Salvar Alterações</button>
+            </form>
+
+
+
+            <form>
+                <h1>Segurança</h1>
+
+                <label for="senha_atual">Senha Atual</label>
+                <input type="password" id="senha_atual" placeholder="Digite sua senha atual" required>
+
+                <label for="nova_senha">Nova Senha</label>
+                <input type="password" id="nova_senha" placeholder="Digite sua nova senha" required>
+                
+                <label for="confirmar_senha">Confirmar Nova Senha</label>
+                <input type="password" id="confirmar_senha" placeholder="Confirme sua nova senha" required>
+                
+                <button type="submit" class="change-btn">Alterar Senha</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

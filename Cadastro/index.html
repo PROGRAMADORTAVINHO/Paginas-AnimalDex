@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Criar Conta</h1>
+            <form>
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                
+                <label for="usuario">Nome de Usuário</label>
+                <input type="text" id="usuario" placeholder="Digite seu nome de usuário" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+                
+                <label for="confirmar-email">Confirmar Email</label>
+                <input type="email" id="confirmar-email" placeholder="Confirme seu email" required>
+                
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
+                
+                <label for="confirmar-senha">Confirmar Senha</label>
+                <input type="password" id="confirmar-senha" placeholder="Confirme sua senha" required>
+
+                <div class="termos">
+                    <input type="checkbox" id="aceitar-termos" required>
+                    <label for="aceitar-termos">
+                        Li e aceito os <a href="#">termos de uso</a> e a <a href="#">política de privacidade</a>.
+                    </label>
+                </div>
+
+                <button type="submit">Criar conta</button>
+            </form>
+            <p class="login">Já tem uma conta? <a href="#">Entrar</a></p>
+        </div>
+    </div>
+</body>
+</html>
