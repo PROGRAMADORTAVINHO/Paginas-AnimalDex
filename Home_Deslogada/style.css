@@ -1,0 +1,156 @@
+/* Reset e fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+    text-align: center;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding: 5px 10px;
+}
+
+.logo img {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.top-bar button {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Seção de boas-vindas */
+.card-start {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.card-start h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+.card-start p {
+    color: #666;
+}
+
+.card-start button, .start-journey button {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Cards de funcionalidades */
+.animaldex-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.animaldex-items div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 2em;
+    align-self: flex-start;
+}
+
+/* Seção de etapas */
+.steps {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.steps h1 {
+    color: #333;
+}
+
+.steps div {
+    display: inline-block;
+    width: 22%;
+    margin: 10px;
+    text-align: center;
+}
+
+.step-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #3B82F6;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px; /* Garante alinhamento vertical */
+}
+
+
+/* Seção final */
+.start-journey {
+    background: #3B82F6;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.start-journey button {
+    height: 50px;
+    background-color: white;
+    color: #3B82F6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.start-journey h1 {
+    font-size: 1.8em;
+}
